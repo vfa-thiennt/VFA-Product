@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <h1>Dash board page</h1>
-  </div>
+  <Editor></Editor>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Editor from "@/components/organisms/work-flow/Editor.vue";
+</script>
 
 <style scoped></style>

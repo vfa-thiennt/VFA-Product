@@ -47,5 +47,6 @@ defineProps({
     @input="
       $emit('update:modelValue', ($event.target as HTMLInputElement).value)
     "
+    class="p3 rounded-sm border-none outline-none"
   />
 </template>
