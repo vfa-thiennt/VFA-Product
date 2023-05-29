@@ -1,15 +1,10 @@
 import * as vRoute from "vue-router";
-import HomePage from "@/components/HomePage.vue";
-import NotFoundPageVue from "@/pages/NotFoundPage.vue";
+import TemplateVue from "@/components/template/Template.vue";
 
 const _routes: Array<vRoute.RouteRecordRaw> = [
   {
     path: "/",
-    component: HomePage,
-  },
-  {
-    path: "/notfound",
-    component: NotFoundPageVue,
+    component: TemplateVue,
   },
 ];
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="w-100 flex h-full items-center justify-center bg-slate-500">
-    not found
+  <div>
+    <h1>Dash board page</h1>
   </div>
 </template>
 
